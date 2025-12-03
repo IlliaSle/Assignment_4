@@ -30,7 +30,8 @@ class CombSortScene(Scene):
         gap = lenth
         swapped = True
         
-
+        #c = NumbeerPlane().add_coordinates()
+        #self.play(Write(c))
 
         title = Text("Comb Sort Algorithm").move_to(3 * UP).scale(1.3).set_color(WHITE)
         self.add(title)
